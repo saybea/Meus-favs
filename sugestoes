@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sugestões para TOP 5</title>
+	<link rel="stylesheet" type="text/css" href="filmes.css">
+    
+</head>
+<body>
+	<header>
+		<h1>Sugestões para TOP 5</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="top5.html">TOP 5</a></li>
+				<li><a href="sugestoes.html">Sugestões</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<h2>Envie suas sugestões</h2>
+		<form>
+			<label for="nome">Nome:</label>
+			<input type="text" id="nome" name="nome" required><br>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required><br>
+
+			<label for="tipo">Tipo:</label>
+			<select id="tipo" name="tipo" required>
+				<option value="">Selecione</option>
+				<option value="filme">Filme</option>
+				<option value="serie">Série</option>
+			</select><br>
+
+			<label for="nome-obra">Nome do filme/série:</label>
+			<input type="text" id="nome-obra" name="nome-obra" required><br>
+
+			<label for="trailer">Link do trailer:</label>
+			<input type="url" id="trailer" name="trailer"><br>
+
+			<input type="submit" value="Enviar">
+		</form>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 - TOP 5</p>
+	</footer>
+</body>
+</html>
